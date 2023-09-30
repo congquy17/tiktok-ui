@@ -4,7 +4,11 @@
     flex-direction: column;
 }
 .container {
-    width: 1150px;
+    width: var(--default-layout-width);
     min-height: 1000px;
-    background-color: #672222;
+    display: flex;
+}
+.content {
+    flex: 1;
+    min-height: 1000px;
 }
